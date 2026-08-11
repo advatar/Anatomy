@@ -1,0 +1,874 @@
+{
+  "assets": [
+    {
+      "arkitValidated": true,
+      "id": "brain",
+      "inputTextures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 2048,
+          "name": "brain+3d+model_basecolor.jpg",
+          "width": 2048
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 2048,
+          "name": "brain+3d+model_normal.jpg",
+          "width": 2048
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 2048,
+          "name": "brain+3d+model_rm.jpg",
+          "width": 2048
+        }
+      ],
+      "maximumSourceBoundsDelta": 6e-05,
+      "maximumUSDZRoundTripBoundsDelta": 0.0,
+      "optimized": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.490265,
+            0.900654,
+            0.403929
+          ],
+          "min": [
+            -0.490145,
+            1.2e-05,
+            -0.403899
+          ]
+        },
+        "bytes": 11184578,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 188844,
+        "vertices": 108594
+      },
+      "outputBytes": 11184578,
+      "outputPath": "AnatomyRealityContent.rkassets/brain.usdz",
+      "outputSHA256": "29c9831b897ed0f61af43dc79558c23e1f23d38d6688837e094954e264fe93b1",
+      "source": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.490265,
+            0.900714,
+            0.403929
+          ],
+          "min": [
+            -0.490145,
+            1.2e-05,
+            -0.403899
+          ]
+        },
+        "bytes": 2570592,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 377692,
+        "vertices": 205701
+      },
+      "sourceBytes": 2570592,
+      "sourcePath": "public/models/brain.glb",
+      "sourceSHA256": "2cd5e7178f1e5de707bb97c2c06f6c34fb5aaad28132445c0afcb4f0fd67c811",
+      "textures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 1024,
+          "name": "brain+3d+model_basecolor.jpg",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "brain+3d+model_normal.png",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "brain+3d+model_rm.png",
+          "width": 1024
+        }
+      ],
+      "triangleRatio": 0.5
+    },
+    {
+      "arkitValidated": true,
+      "id": "eyeball",
+      "inputTextures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 2048,
+          "name": "anatomical+eyeball+3d+model_basecolor.jpg",
+          "width": 2048
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 2048,
+          "name": "anatomical+eyeball+3d+model_normal.jpg",
+          "width": 2048
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 2048,
+          "name": "anatomical+eyeball+3d+model_rm.jpg",
+          "width": 2048
+        }
+      ],
+      "maximumSourceBoundsDelta": 0.0,
+      "maximumUSDZRoundTripBoundsDelta": 0.0,
+      "optimized": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.48967,
+            0.80461,
+            0.426445
+          ],
+          "min": [
+            -0.48961,
+            -1.5e-05,
+            -0.426476
+          ]
+        },
+        "bytes": 9309916,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 160122,
+        "vertices": 95754
+      },
+      "outputBytes": 9309916,
+      "outputPath": "AnatomyRealityContent.rkassets/eyeball.usdz",
+      "outputSHA256": "7151b41d7eebf1b42f89262336adc1c576dc9eb190b1fb0b0f70e62c254c9ef7",
+      "source": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.48967,
+            0.80461,
+            0.426445
+          ],
+          "min": [
+            -0.48961,
+            -1.5e-05,
+            -0.426476
+          ]
+        },
+        "bytes": 2203616,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 320250,
+        "vertices": 178052
+      },
+      "sourceBytes": 2203616,
+      "sourcePath": "public/models/eyeball.glb",
+      "sourceSHA256": "584337a2efc7d3c03d7326ca930217c4f7e5eca0a32a8cec141c7388ecc8a1c7",
+      "textures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 1024,
+          "name": "anatomical+eyeball+3d+model_basecolor.jpg",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "anatomical+eyeball+3d+model_normal.png",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "anatomical+eyeball+3d+model_rm.png",
+          "width": 1024
+        }
+      ],
+      "triangleRatio": 0.5
+    },
+    {
+      "arkitValidated": true,
+      "id": "heart",
+      "inputTextures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 2048,
+          "name": "anatomical_heart_3d_model_basecolor",
+          "width": 2048
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 2048,
+          "name": "anatomical_heart_3d_model_normal",
+          "width": 2048
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 2048,
+          "name": "anatomical_heart_3d_model_rm",
+          "width": 2048
+        }
+      ],
+      "maximumSourceBoundsDelta": 0.000239,
+      "maximumUSDZRoundTripBoundsDelta": 0.0,
+      "optimized": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.298216,
+            0.980381,
+            0.290983
+          ],
+          "min": [
+            -0.298553,
+            0.0,
+            -0.293397
+          ]
+        },
+        "bytes": 11979426,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 193284,
+        "vertices": 153495
+      },
+      "outputBytes": 11979426,
+      "outputPath": "AnatomyRealityContent.rkassets/heart.usdz",
+      "outputSHA256": "9b09710cbbddf49b1faa52aa598aa439fdd86031884152aa373ad0483f4a8b01",
+      "source": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.298216,
+            0.98056,
+            0.291043
+          ],
+          "min": [
+            -0.298553,
+            0.0,
+            -0.293636
+          ]
+        },
+        "bytes": 3321148,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 386597,
+        "vertices": 293072
+      },
+      "sourceBytes": 3321148,
+      "sourcePath": "public/models/heart.glb",
+      "sourceSHA256": "ef48b43442dbbe2819d6035f8bbf1391d2c3fefbe842863c9c7c1a22cc6cd748",
+      "textures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 1024,
+          "name": "anatomical_heart_3d_model_basecolor.jpg",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "anatomical_heart_3d_model_normal.png",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "anatomical_heart_3d_model_rm.png",
+          "width": 1024
+        }
+      ],
+      "triangleRatio": 0.5
+    },
+    {
+      "arkitValidated": true,
+      "id": "intestine",
+      "inputTextures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 2048,
+          "name": "human+intestine+3d+model_basecolor.jpg",
+          "width": 2048
+        }
+      ],
+      "maximumSourceBoundsDelta": 0.000183,
+      "maximumUSDZRoundTripBoundsDelta": 0.0,
+      "optimized": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.442888,
+            1.0,
+            0.213456
+          ],
+          "min": [
+            -0.44298,
+            6.1e-05,
+            -0.213441
+          ]
+        },
+        "bytes": 8008853,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 1,
+        "triangles": 154368,
+        "vertices": 95322
+      },
+      "outputBytes": 8008853,
+      "outputPath": "AnatomyRealityContent.rkassets/intestine.usdz",
+      "outputSHA256": "12a821485de0c5a13ae54bc5aae995a05240adda85dc461f2f45d3f5f714a66f",
+      "source": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.443071,
+            1.0,
+            0.213456
+          ],
+          "min": [
+            -0.44298,
+            6.1e-05,
+            -0.213441
+          ]
+        },
+        "bytes": 1980780,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 1,
+        "triangles": 308748,
+        "vertices": 175528
+      },
+      "sourceBytes": 1980780,
+      "sourcePath": "public/models/intestine.glb",
+      "sourceSHA256": "d4423ba0c8f08ac7652396e2530482f874e4964a9c3f1b71440f0493048bea26",
+      "textures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 1024,
+          "name": "human+intestine+3d+model_basecolor.jpg",
+          "width": 1024
+        }
+      ],
+      "triangleRatio": 0.5
+    },
+    {
+      "arkitValidated": true,
+      "id": "kidneys",
+      "inputTextures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 2048,
+          "name": "kidneys+3d+model_basecolor.jpg",
+          "width": 2048
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 2048,
+          "name": "kidneys+3d+model_normal.jpg",
+          "width": 2048
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 2048,
+          "name": "kidneys+3d+model_rm.jpg",
+          "width": 2048
+        }
+      ],
+      "maximumSourceBoundsDelta": 0.0,
+      "maximumUSDZRoundTripBoundsDelta": 0.0,
+      "optimized": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.489685,
+            0.719907,
+            0.185924
+          ],
+          "min": [
+            -0.489685,
+            3e-06,
+            -0.185924
+          ]
+        },
+        "bytes": 9257394,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 163726,
+        "vertices": 97938
+      },
+      "outputBytes": 9257394,
+      "outputPath": "AnatomyRealityContent.rkassets/kidneys.usdz",
+      "outputSHA256": "e9da5ba7129bfefedaae0d494b7b2982438c836e06bdf045bd4c109bb9d17134",
+      "source": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.489685,
+            0.719907,
+            0.185924
+          ],
+          "min": [
+            -0.489685,
+            3e-06,
+            -0.185924
+          ]
+        },
+        "bytes": 2190764,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 327452,
+        "vertices": 182069
+      },
+      "sourceBytes": 2190764,
+      "sourcePath": "public/models/kidneys.glb",
+      "sourceSHA256": "e3e0a58372d794d68b181d1d453ff4362da972667c28711e153c5f34064cf165",
+      "textures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 1024,
+          "name": "kidneys+3d+model_basecolor.jpg",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "kidneys+3d+model_normal.png",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "kidneys+3d+model_rm.png",
+          "width": 1024
+        }
+      ],
+      "triangleRatio": 0.5
+    },
+    {
+      "arkitValidated": true,
+      "id": "liver",
+      "inputTextures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 2048,
+          "name": "liver+anatomy+3d+model_basecolor.jpg",
+          "width": 2048
+        }
+      ],
+      "maximumSourceBoundsDelta": 0.000122,
+      "maximumUSDZRoundTripBoundsDelta": 0.0,
+      "optimized": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.496552,
+            0.999878,
+            0.256065
+          ],
+          "min": [
+            -0.496613,
+            0.000122,
+            -0.256156
+          ]
+        },
+        "bytes": 9245528,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 1,
+        "triangles": 172758,
+        "vertices": 119565
+      },
+      "outputBytes": 9245528,
+      "outputPath": "AnatomyRealityContent.rkassets/liver.usdz",
+      "outputSHA256": "cbe95f40da7b58417d191e9085f316c9ca578a28ff7121490cb9525107ba8d12",
+      "source": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.496552,
+            0.999939,
+            0.256187
+          ],
+          "min": [
+            -0.496613,
+            6.1e-05,
+            -0.256156
+          ]
+        },
+        "bytes": 2660384,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 1,
+        "triangles": 345526,
+        "vertices": 214401
+      },
+      "sourceBytes": 2660384,
+      "sourcePath": "public/models/liver.glb",
+      "sourceSHA256": "e4f11a9c0762eb9dc4309dcd0d5c3e3958ccacab915267da4e7775894b674990",
+      "textures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 1024,
+          "name": "liver+anatomy+3d+model_basecolor.jpg",
+          "width": 1024
+        }
+      ],
+      "triangleRatio": 0.5
+    },
+    {
+      "arkitValidated": true,
+      "id": "lungs",
+      "inputTextures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 4096,
+          "name": "lungs+3d+model_basecolor.jpg",
+          "width": 4096
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 4096,
+          "name": "lungs+3d+model_normal.jpg",
+          "width": 4096
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 4096,
+          "name": "lungs+3d+model_rm.jpg",
+          "width": 4096
+        }
+      ],
+      "maximumSourceBoundsDelta": 6e-05,
+      "maximumUSDZRoundTripBoundsDelta": 0.0,
+      "optimized": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.451249,
+            0.97937,
+            0.306561
+          ],
+          "min": [
+            -0.451278,
+            3.1e-05,
+            -0.306561
+          ]
+        },
+        "bytes": 9092068,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 175382,
+        "vertices": 101656
+      },
+      "outputBytes": 9092068,
+      "outputPath": "AnatomyRealityContent.rkassets/lungs.usdz",
+      "outputSHA256": "7f13b7176c83534971d5432ac86fb5e87081f44d31fedd5a5fbede4c08cb6de6",
+      "source": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.451309,
+            0.97937,
+            0.306561
+          ],
+          "min": [
+            -0.451278,
+            3.1e-05,
+            -0.306561
+          ]
+        },
+        "bytes": 4455976,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 350772,
+        "vertices": 190977
+      },
+      "sourceBytes": 4455976,
+      "sourcePath": "public/models/lungs.glb",
+      "sourceSHA256": "81617c9fc2f2b7bf1e7d874b89614c89b09f2f68318e64997c68c948cfa9abdc",
+      "textures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 1024,
+          "name": "lungs+3d+model_basecolor.jpg",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "lungs+3d+model_normal.jpg",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "lungs+3d+model_rm.jpg",
+          "width": 1024
+        }
+      ],
+      "triangleRatio": 0.5
+    },
+    {
+      "arkitValidated": true,
+      "id": "pancreas",
+      "inputTextures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 4096,
+          "name": "pink+organ+3d+model_basecolor.jpg",
+          "width": 4096
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 4096,
+          "name": "pink+organ+3d+model_normal.jpg",
+          "width": 4096
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 4096,
+          "name": "pink+organ+3d+model_rm.jpg",
+          "width": 4096
+        }
+      ],
+      "maximumSourceBoundsDelta": 5.9e-05,
+      "maximumUSDZRoundTripBoundsDelta": 0.0,
+      "optimized": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.490175,
+            0.522424,
+            0.180777
+          ],
+          "min": [
+            -0.490234,
+            3.7e-05,
+            -0.180716
+          ]
+        },
+        "bytes": 9024022,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 173298,
+        "vertices": 97846
+      },
+      "outputBytes": 9024022,
+      "outputPath": "AnatomyRealityContent.rkassets/pancreas.usdz",
+      "outputSHA256": "26c1b2891aff848c3c720c3421cc532a51853b5405711abd318e430e02cf1a9f",
+      "source": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.490234,
+            0.522424,
+            0.180777
+          ],
+          "min": [
+            -0.490234,
+            3.7e-05,
+            -0.180716
+          ]
+        },
+        "bytes": 4848556,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 346596,
+        "vertices": 186467
+      },
+      "sourceBytes": 4848556,
+      "sourcePath": "public/models/pancreas.glb",
+      "sourceSHA256": "e5213bf8ed66e8ed4eb2a9d1c7a6922fb926eac85de8c5979e780ca1abcaf1c3",
+      "textures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 1024,
+          "name": "pink+organ+3d+model_basecolor.jpg",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "pink+organ+3d+model_normal.jpg",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "pink+organ+3d+model_rm.jpg",
+          "width": 1024
+        }
+      ],
+      "triangleRatio": 0.5
+    },
+    {
+      "arkitValidated": true,
+      "id": "skin",
+      "inputTextures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 4096,
+          "name": "skin+cross-section+3d+model_basecolor.jpg",
+          "width": 4096
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 4096,
+          "name": "skin+cross-section+3d+model_normal.jpg",
+          "width": 4096
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 4096,
+          "name": "skin+cross-section+3d+model_rm.jpg",
+          "width": 4096
+        }
+      ],
+      "maximumSourceBoundsDelta": 0.000718,
+      "maximumUSDZRoundTripBoundsDelta": 0.0,
+      "optimized": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.489946,
+            0.773288,
+            0.426403
+          ],
+          "min": [
+            -0.490036,
+            -1.9e-05,
+            -0.426464
+          ]
+        },
+        "bytes": 9685650,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 178165,
+        "vertices": 123777
+      },
+      "outputBytes": 9685650,
+      "outputPath": "AnatomyRealityContent.rkassets/skin.usdz",
+      "outputSHA256": "896a23a5a3a1f8933e07012c57c7e4c493b4d66ab7fe6fcf79686fdba32f0e7c",
+      "source": {
+        "animations": 0,
+        "bounds": {
+          "max": [
+            0.490005,
+            0.774006,
+            0.426403
+          ],
+          "min": [
+            -0.490036,
+            -1.9e-05,
+            -0.426464
+          ]
+        },
+        "bytes": 5789160,
+        "materials": 1,
+        "meshes": 1,
+        "normalPrimitives": 1,
+        "primitives": 1,
+        "tangentPrimitives": 0,
+        "textures": 3,
+        "triangles": 356333,
+        "vertices": 225834
+      },
+      "sourceBytes": 5789160,
+      "sourcePath": "public/models/skin.glb",
+      "sourceSHA256": "8183ffe3527b3f071c41c55e41ffaf673df8d02a1405e95e644ac5d89cd6f5f9",
+      "textures": [
+        {
+          "colorSpace": "sRGB",
+          "height": 1024,
+          "name": "skin+cross-section+3d+model_basecolor.jpg",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "skin+cross-section+3d+model_normal.jpg",
+          "width": 1024
+        },
+        {
+          "colorSpace": "Non-Color",
+          "height": 1024,
+          "name": "skin+cross-section+3d+model_rm.jpg",
+          "width": 1024
+        }
+      ],
+      "triangleRatio": 0.5
+    }
+  ],
+  "pipeline": {
+    "baseColorJPEGQuality": 88,
+    "blender": "5.1.0",
+    "gltfTransform": "4.2.1",
+    "maximumSimplificationError": 0.001,
+    "maximumTextureDimension": 1024,
+    "metersPerUnit": 1,
+    "simplificationRatio": 0.5
+  }
+}

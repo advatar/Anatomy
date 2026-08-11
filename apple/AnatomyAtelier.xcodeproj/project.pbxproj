@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19430DA64C4FBAE77401594D /* Organ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353658A0C625C9C69F1A7471 /* Organ.swift */; };
+		27EDE46718E3DB26CE677E4C /* OrganRealityScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA574008FB58B56B524ABA9 /* OrganRealityScene.swift */; };
+		2BE7BAECE5DDE439F43600FA /* OrganCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4A69C5E9FC212236B5F97 /* OrganCatalog.swift */; };
+		56A612D7A926C95E6B2083B9 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193EAD218436DD4B868834D4 /* LibraryView.swift */; };
+		661BD15E587D791EBA2DF074 /* AnatomyRealityContent in Frameworks */ = {isa = PBXBuildFile; productRef = 4C0D8014B1740B71D9B1EE56 /* AnatomyRealityContent */; };
+		674A2B20026BA6E7386C03D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA90263E07805B052F5BAFFF /* Assets.xcassets */; };
+		7FDC11C459639E4D28226407 /* OrganAssetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B73889A1820AFDDA471F2D /* OrganAssetStore.swift */; };
+		82F24BD15FCA78E2FAE2BB6E /* AnatomyAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7350496347AD087FD3D98 /* AnatomyAppModel.swift */; };
+		874985CA47635BBC059DA20C /* VisionImmersionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E927B22E6FFA968A562408F /* VisionImmersionButton.swift */; };
+		8CC184CBFC71C8215411AAFC /* OrganCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC866F0452212848C7587E16 /* OrganCatalogTests.swift */; };
+		9DE7540EF9835BA47D2AD623 /* AnatomyAtelierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE349BC65AFABDA9D208CD1 /* AnatomyAtelierApp.swift */; };
+		ABD8B20556E378AE723FE5E5 /* ImmersiveAnatomyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE69589D404AED1F4A8FE /* ImmersiveAnatomyView.swift */; };
+		AD8F75E84F2E3D52DE002BB3 /* OrganHotspotCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619916457024E7564032860B /* OrganHotspotCatalog.swift */; };
+		ADC1D0A3FB6707CFF1F44D84 /* OrganRealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE05A4836225C78AEEA407D /* OrganRealityView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DA568C40A99C33B9CAF4404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B6DDCC0351FB13F1C9BBDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782C18CA828C2957C8A02F8C;
+			remoteInfo = AnatomyAtelier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		193EAD218436DD4B868834D4 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		2CE349BC65AFABDA9D208CD1 /* AnatomyAtelierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnatomyAtelierApp.swift; sourceTree = "<group>"; };
+		353658A0C625C9C69F1A7471 /* Organ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ.swift; sourceTree = "<group>"; };
+		4C4156ACD831BC1B0A9890D7 /* AnatomyRealityContent */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AnatomyRealityContent; path = Packages/AnatomyRealityContent; sourceTree = SOURCE_ROOT; };
+		619916457024E7564032860B /* OrganHotspotCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganHotspotCatalog.swift; sourceTree = "<group>"; };
+		6E927B22E6FFA968A562408F /* VisionImmersionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionImmersionButton.swift; sourceTree = "<group>"; };
+		75CB31A0424567E50CCB16A8 /* AnatomyAtelier.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AnatomyAtelier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0A48A126A0AF9627E2CB2C /* AnatomyAtelierTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AnatomyAtelierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B73889A1820AFDDA471F2D /* OrganAssetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganAssetStore.swift; sourceTree = "<group>"; };
+		CC866F0452212848C7587E16 /* OrganCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganCatalogTests.swift; sourceTree = "<group>"; };
+		CEA574008FB58B56B524ABA9 /* OrganRealityScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganRealityScene.swift; sourceTree = "<group>"; };
+		CEF4A69C5E9FC212236B5F97 /* OrganCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganCatalog.swift; sourceTree = "<group>"; };
+		D8E7350496347AD087FD3D98 /* AnatomyAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnatomyAppModel.swift; sourceTree = "<group>"; };
+		DDE05A4836225C78AEEA407D /* OrganRealityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganRealityView.swift; sourceTree = "<group>"; };
+		E82FE69589D404AED1F4A8FE /* ImmersiveAnatomyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveAnatomyView.swift; sourceTree = "<group>"; };
+		EA90263E07805B052F5BAFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07001404A1993F4EFA268E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661BD15E587D791EBA2DF074 /* AnatomyRealityContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14AF3748F2D926D7FB72BF18 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CC866F0452212848C7587E16 /* OrganCatalogTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		2733D9E99EBAC684DDCB7376 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75CB31A0424567E50CCB16A8 /* AnatomyAtelier.app */,
+				7A0A48A126A0AF9627E2CB2C /* AnatomyAtelierTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38A0C91BB3B7C527F00963BF /* Platforms */ = {
+			isa = PBXGroup;
+			children = (
+				DAA7319D3331066D8C324E4C /* visionOS */,
+			);
+			path = Platforms;
+			sourceTree = "<group>";
+		};
+		435035C38AF0409D65DEA9C5 /* Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				CEA574008FB58B56B524ABA9 /* OrganRealityScene.swift */,
+				DDE05A4836225C78AEEA407D /* OrganRealityView.swift */,
+				8A308CD25B7E47A00FAE3436 /* Assets */,
+			);
+			path = Viewer;
+			sourceTree = "<group>";
+		};
+		4F4113CD5C36BB9119747651 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4C4156ACD831BC1B0A9890D7 /* AnatomyRealityContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		58CC3C6CA2AE82C6DB79F46A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				353658A0C625C9C69F1A7471 /* Organ.swift */,
+				CEF4A69C5E9FC212236B5F97 /* OrganCatalog.swift */,
+				619916457024E7564032860B /* OrganHotspotCatalog.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		6B7DEB9715708F6C71E3697D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D8E7350496347AD087FD3D98 /* AnatomyAppModel.swift */,
+				2CE349BC65AFABDA9D208CD1 /* AnatomyAtelierApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7A8A72D1A40EF0DC6C45FBEC /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				193EAD218436DD4B868834D4 /* LibraryView.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		7CC05AB7248C8C2C640BF45E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				7A8A72D1A40EF0DC6C45FBEC /* Gallery */,
+				435035C38AF0409D65DEA9C5 /* Viewer */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		8A308CD25B7E47A00FAE3436 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				83B73889A1820AFDDA471F2D /* OrganAssetStore.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A1D02F59896688653130864C = {
+			isa = PBXGroup;
+			children = (
+				4F4113CD5C36BB9119747651 /* Packages */,
+				A9A2D90F652EABCA4606C535 /* Resources */,
+				F98EAAEC2FA7D5901A9481BB /* Sources */,
+				14AF3748F2D926D7FB72BF18 /* Tests */,
+				2733D9E99EBAC684DDCB7376 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9A2D90F652EABCA4606C535 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA90263E07805B052F5BAFFF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DAA7319D3331066D8C324E4C /* visionOS */ = {
+			isa = PBXGroup;
+			children = (
+				E82FE69589D404AED1F4A8FE /* ImmersiveAnatomyView.swift */,
+				6E927B22E6FFA968A562408F /* VisionImmersionButton.swift */,
+			);
+			path = visionOS;
+			sourceTree = "<group>";
+		};
+		F98EAAEC2FA7D5901A9481BB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6B7DEB9715708F6C71E3697D /* App */,
+				58CC3C6CA2AE82C6DB79F46A /* Domain */,
+				7CC05AB7248C8C2C640BF45E /* Features */,
+				38A0C91BB3B7C527F00963BF /* Platforms */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		395C1BCFE2A61420059F9387 /* AnatomyAtelierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA3B1D996A5D27A6944EE7C /* Build configuration list for PBXNativeTarget "AnatomyAtelierTests" */;
+			buildPhases = (
+				34F118EE73C1E8AA16F7CF4D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0668422ED95B84A5C092AD6 /* PBXTargetDependency */,
+			);
+			name = AnatomyAtelierTests;
+			packageProductDependencies = (
+			);
+			productName = AnatomyAtelierTests;
+			productReference = 7A0A48A126A0AF9627E2CB2C /* AnatomyAtelierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		782C18CA828C2957C8A02F8C /* AnatomyAtelier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C3CCDAB8F7204803D89C20 /* Build configuration list for PBXNativeTarget "AnatomyAtelier" */;
+			buildPhases = (
+				D42BB1C96A89DF0737870DC1 /* Sources */,
+				8CE4E903881BF7334C672499 /* Resources */,
+				07001404A1993F4EFA268E7B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnatomyAtelier;
+			packageProductDependencies = (
+				4C0D8014B1740B71D9B1EE56 /* AnatomyRealityContent */,
+			);
+			productName = AnatomyAtelier;
+			productReference = 75CB31A0424567E50CCB16A8 /* AnatomyAtelier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B6DDCC0351FB13F1C9BBDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = F2D8CB969777276112BE9E00 /* Build configuration list for PBXProject "AnatomyAtelier" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A1D02F59896688653130864C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C6ADD0AE4F20C4E11082FE12 /* XCLocalSwiftPackageReference "Packages/AnatomyRealityContent" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2733D9E99EBAC684DDCB7376 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782C18CA828C2957C8A02F8C /* AnatomyAtelier */,
+				395C1BCFE2A61420059F9387 /* AnatomyAtelierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CE4E903881BF7334C672499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674A2B20026BA6E7386C03D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34F118EE73C1E8AA16F7CF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC184CBFC71C8215411AAFC /* OrganCatalogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42BB1C96A89DF0737870DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F24BD15FCA78E2FAE2BB6E /* AnatomyAppModel.swift in Sources */,
+				9DE7540EF9835BA47D2AD623 /* AnatomyAtelierApp.swift in Sources */,
+				ABD8B20556E378AE723FE5E5 /* ImmersiveAnatomyView.swift in Sources */,
+				56A612D7A926C95E6B2083B9 /* LibraryView.swift in Sources */,
+				19430DA64C4FBAE77401594D /* Organ.swift in Sources */,
+				7FDC11C459639E4D28226407 /* OrganAssetStore.swift in Sources */,
+				2BE7BAECE5DDE439F43600FA /* OrganCatalog.swift in Sources */,
+				AD8F75E84F2E3D52DE002BB3 /* OrganHotspotCatalog.swift in Sources */,
+				27EDE46718E3DB26CE677E4C /* OrganRealityScene.swift in Sources */,
+				ADC1D0A3FB6707CFF1F44D84 /* OrganRealityView.swift in Sources */,
+				874985CA47635BBC059DA20C /* VisionImmersionButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0668422ED95B84A5C092AD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782C18CA828C2957C8A02F8C /* AnatomyAtelier */;
+			targetProxy = 1DA568C40A99C33B9CAF4404 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B366292BA425963F59388A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.advatar.AnatomyAtelierTests;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,3,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anatomy Atelier.app/Anatomy Atelier";
+				"TEST_HOST[sdk=macosx*]" = "$(BUILT_PRODUCTS_DIR)/Anatomy Atelier.app/Contents/MacOS/Anatomy Atelier";
+			};
+			name = Release;
+		};
+		7E4094949DF88FEF749334D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.advatar.anatomyatelier;
+				PRODUCT_MODULE_NAME = AnatomyAtelier;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,3,7";
+			};
+			name = Debug;
+		};
+		A19BA6AC9C7C6A0B19D050EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Anatomy Atelier";
+				SDKROOT = auto;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TVOS_DEPLOYMENT_TARGET = 26.0;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		B440506147EE5FFD81C7417A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.advatar.AnatomyAtelierTests;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,3,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anatomy Atelier.app/Anatomy Atelier";
+				"TEST_HOST[sdk=macosx*]" = "$(BUILT_PRODUCTS_DIR)/Anatomy Atelier.app/Contents/MacOS/Anatomy Atelier";
+			};
+			name = Debug;
+		};
+		DF1701C5F29FEE555A11A98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.advatar.anatomyatelier;
+				PRODUCT_MODULE_NAME = AnatomyAtelier;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,3,7";
+			};
+			name = Release;
+		};
+		E74B7821037BC3398D328D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Anatomy Atelier";
+				SDKROOT = auto;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TVOS_DEPLOYMENT_TARGET = 26.0;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FA3B1D996A5D27A6944EE7C /* Build configuration list for PBXNativeTarget "AnatomyAtelierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B440506147EE5FFD81C7417A /* Debug */,
+				6B366292BA425963F59388A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E4C3CCDAB8F7204803D89C20 /* Build configuration list for PBXNativeTarget "AnatomyAtelier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4094949DF88FEF749334D6 /* Debug */,
+				DF1701C5F29FEE555A11A98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F2D8CB969777276112BE9E00 /* Build configuration list for PBXProject "AnatomyAtelier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74B7821037BC3398D328D8D /* Debug */,
+				A19BA6AC9C7C6A0B19D050EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		C6ADD0AE4F20C4E11082FE12 /* XCLocalSwiftPackageReference "Packages/AnatomyRealityContent" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/AnatomyRealityContent;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C0D8014B1740B71D9B1EE56 /* AnatomyRealityContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AnatomyRealityContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 81B6DDCC0351FB13F1C9BBDE /* Project object */;
+}

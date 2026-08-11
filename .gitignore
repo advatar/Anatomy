@@ -22,6 +22,10 @@
 .DS_Store
 *.pem
 
+# xcode user state
+xcuserdata/
+*.xcuserstate
+
 # debug
 npm-debug.log*
 yarn-debug.log*
